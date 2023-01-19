@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 	{
 		//rotation = Input.GetAxisRaw("Horizontal");
 		rotation = joystick.Horizontal;
+		Application.targetFrameRate = 300;
 	}
 
 	void FixedUpdate ()
